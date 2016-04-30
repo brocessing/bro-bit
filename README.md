@@ -1,4 +1,6 @@
-# bro-jams
+# bro-bit
+
+> :muscle: for your :video_game:
 
 ## licence
 
