@@ -14,11 +14,15 @@ void settings(){
 
 void setup() {
 	position = new PVector(int(random(width)), int(random(height)));
-	image(bg, 0, 0);
-	loadPixels();
+	bg.loadPixels();
 		int id = int(position.y*width+position.x);
-		pixels[id] = color(((brightness(pixels[id])>127)?0:255));
-	updatePixels();
+		bg.pixels[id] = color(((brightness(bg.pixels[id])>127)?0:255));
+	bg.updatePixels();
+	image(bg, 0, 0);
+
+	stroke(255,0,0);
+	noFill();
+	rect(position.x - 10, position.y - 10, 20, 20);
 }
 
 void draw(){}
