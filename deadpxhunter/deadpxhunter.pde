@@ -15,14 +15,17 @@ void settings(){
 void setup() {
 	position = new PVector(int(random(width)), int(random(height)));
 	image(bg, 0, 0);
-	stroke(0);
-	point(position.x, position.y);
+	loadPixels();
+		int id = int(position.y*width+position.x);
+		pixels[id] = color(((brightness(pixels[id])>127)?0:255));
+	updatePixels();
 }
 
 void draw(){}
 
 void mousePressed(){
-	if(mouseX==position.x && mouseY==position.y){
+	int dist = (int) Math.hypot(position.x-mouseX, position.y-mouseY);
+	if(dist <= 5){
 		exit();
 	}
 }
