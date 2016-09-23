@@ -1,7 +1,22 @@
-# bro-bit
+<h1 align="center">Bro-bit</h1>
+<h3 align="center">:video_game: Pumped up games :video_game:</h3>
 
-> :muscle: for your :video_game:
+<div align="center">
+  <!-- License -->
+  <a href="https://raw.githubusercontent.com/leoternoir/sublimesync/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License" />
+  </a>
+</div>
 
-## licence
+===
 
-`GNU GENERAL PUBLIC LICENSE Version 3, June 2007`
+## Features
+
+- You can play games
+
+## Game list
+
+- [Dead Pixel Hunter](https://github.com/brocessing/bro-bit/tree/master/deadpxhunter)
+
+## License
+MIT.
