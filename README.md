@@ -8,8 +8,6 @@
   </a>
 </div>
 
-===
-
 ## Game list
 
 - [Dead Pixel Hunter](https://github.com/brocessing/bro-bit/tree/master/deadpxhunter)
