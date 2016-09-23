@@ -10,10 +10,6 @@
 
 ===
 
-## Features
-
-- You can play games
-
 ## Game list
 
 - [Dead Pixel Hunter](https://github.com/brocessing/bro-bit/tree/master/deadpxhunter)
