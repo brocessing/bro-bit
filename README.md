@@ -3,7 +3,7 @@
 
 <div align="center">
   <!-- License -->
-  <a href="https://raw.githubusercontent.com/leoternoir/sublimesync/master/LICENSE">
+  <a href="https://raw.githubusercontent.com/brocessing/bro-bit/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License" />
   </a>
 </div>
